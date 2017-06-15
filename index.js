@@ -8,6 +8,7 @@ module.exports = (function() {
   // csv-json databot with ons-mapping
   const databot = function(input, output, context) {
     let wrangler;
+    console.log(input);
     // Databot can accept the source data as either a TDX resource ID refering to a raw file, or a URL.
     if (!input.sourceResource && !input.sourceURL && !input.sourceFilePath) {
       output.error("invalid arguments - please supply either a source or valid mappingType");

@@ -2,18 +2,18 @@ module.exports = (function() {
   "use strict";
 
   return {
-    tdxHost: "https://q.nqminds.com",
-    shareKeyId: "BJxDTAMqW",
+    tdxHost: "https://q.nq-m.com",
+    shareKeyId: "H1g9B29Ele",
     shareKeySecret: "1234554321",
-    commandHost: "https://cmd.nqminds.com",
-    queryHost: "https://q.nqminds.com",
+    commandHost: "https://cmd.nq-m.com",
+    queryHost: "https://q.nq-m.com",
     timerFrequency: 60000,
     accessTokenTTL: 31536000,
     authTokenTTL: 31536000,
     inputs: {
       databotType: "csv-direct-mapping",
-      sourceFilePath: "rklxq7JgmZ,HJx9kEkem-,SJl2eE1x7b,HJx1QE1gQZ,SyxrVNJeXW",
-      sourceResource: "",
+      sourceFilePath: "",
+      sourceResource: "rklxq7JgmZ,HJx9kEkem-,SJl2eE1x7b,HJx1QE1gQZ,SyxrVNJeXW",
       sourceURL: "",
       mapArray: [
         {
