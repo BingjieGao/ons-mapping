@@ -1,0 +1,41 @@
+{
+  "name": "ons-mapping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BingjieGao/ons-mapping.git"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "csvtojson": "^1.1.4",
+    "lodash": "^4.17.4",
+    "nqm-api-tdx": "^0.1.32",
+    "proj4": "^2.4.3",
+    "promise": "^7.1.1",
+    "request": "^2.80.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "bluebird": "^3.4.7",
+    "eslint": "^3.17.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-babel": "^4.1.1",
+    "eslint-plugin-promise": "^3.4.2",
+    "eslint-plugin-standard": "^2.0.1",
+    "mkdirp": "^0.5.1",
+    "nqm-api-tdx": "^0.1.32",
+    "nqm-databot-utils": "^0.1.20",
+    "yauzl": "^2.7.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BingjieGao/ons-mapping/issues"
+  },
+  "homepage": "https://github.com/BingjieGao/ons-mapping#readme"
+}
